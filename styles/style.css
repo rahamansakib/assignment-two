@@ -1,0 +1,296 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+/* Header style */
+
+.header-title {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.header {
+  background: rgba(255, 144, 14, 0.1);
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 64px 227px 116px 253px;
+  align-items: center;
+}
+
+ul,
+li {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  font-weight: 500;
+  font-size: 18px;
+  color: #424242;
+}
+
+.brand {
+  text-align: center;
+  padding: 0 516px 33px 542px;
+}
+
+.brand-title {
+  font-weight: 700;
+  font-size: 64px;
+  padding-bottom: 25px;
+}
+
+.banner {
+  border-radius: 8px;
+  text-align: center;
+  padding: 50px 230px 30px 250px;
+}
+
+/* Button Container */
+
+.button-container {
+  text-align: center;
+}
+
+.btn-primary {
+  padding: 21px 24px;
+  background: #ff900e;
+  border-radius: 8px;
+  font-weight: 600;
+  font-size: 20px;
+  color: #ffffff;
+  border: none;
+}
+
+/* Feature Section Style */
+
+.feature {
+  display: flex;
+  align-items: center;
+}
+
+.feature-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 100px 70px 130px 300px;
+}
+
+.feature-container,
+img {
+  gap: 20px;
+}
+
+.feature-info {
+  font-weight: 500;
+  font-size: 45px;
+  color: #727272;
+}
+
+.feature-info-title {
+  font-weight: 500;
+  font-size: 45px;
+  color: #131313;
+}
+
+.feature-info-subtitle {
+  font-weight: 500;
+  font-size: 45px;
+  color: #ff900e;
+}
+
+.feature-description {
+  padding: 25px 300px 25px 0;
+}
+
+/* Highlighted Feature Section  Style */
+
+.highlighted-feature {
+  display: flex;
+  margin: 0 240px 130px 240px;
+}
+
+.highlighted-feature-description {
+  display: flex;
+  width: 586px;
+  margin-right: 60px;
+}
+
+.feature-column {
+  width: 7px;
+  height: 106px;
+  background: #ff900e;
+  margin-right: 20px;
+}
+
+.feature-column-details {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+}
+
+.feature-column-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin: 30px 0;
+}
+
+.feature-column-container {
+  background: #ffffff;
+  box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+  border-radius: 8px;
+  padding: 30px 42px 30px 30px;
+  margin: 20px 0;
+}
+
+.feature-column-container-title {
+  font-weight: 600;
+  font-size: 20px;
+  color: #131313;
+  margin-bottom: 10px;
+}
+
+.feature-column-container-subtitle {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+}
+
+.overlap-btn-image {
+  background-image: url(../images/architect.png);
+  background-repeat: no-repeat;
+  width: 800px;
+  height: 1059px;
+  background-position: right top;
+}
+
+.overlap-btn {
+  background: #ff900e;
+  padding: 35px 42px;
+  font-weight: 700;
+  font-size: 65px;
+  color: #ffffff;
+  margin-top: 860px;
+  border-radius: 8px;
+  border: none;
+}
+
+.overlap-btn-text {
+  font-weight: 500;
+  font-size: 25px;
+  color: #ffffff;
+}
+
+/*  Fact Section Style  */
+
+.fact {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  margin: 120px 0px 24px 240px;
+}
+
+.fact-title {
+  font-weight: 400;
+  font-size: 16px;
+  color: #727272;
+  margin: 0 1100px 0 240px;
+}
+
+.fact-container {
+  display: flex;
+  margin: 100px 250px 180px 250px;
+  gap: 165px;
+}
+
+.fact-item {
+  padding: 45px 30px;
+  border: 1px solid #ff900e;
+  border-radius: 8px;
+  align-items: center;
+  text-align: center;
+}
+
+.fact-description {
+  font-weight: 600;
+  font-size: 45px;
+}
+
+.fact-details {
+  font-weight: 600;
+  font-size: 20px;
+  color: #727272;
+}
+
+/* Sponsors style  */
+
+.sponsor {
+  font-weight: 700;
+  font-size: 45px;
+  color: #131313;
+  text-align: center;
+  margin-bottom: 24px;
+}
+
+.sponsor-title {
+  font-weight: 400;
+  font-size: 16px;
+  text-align: center;
+  color: #727272;
+  margin: 0 690px;
+}
+
+.sponsor-container {
+  align-items: center;
+  margin: 50px 240px 130px 240px;
+}
+
+.sponsor-img {
+  margin-right: 105px;
+  filter: grayscale(100%);
+}
+
+.footer {
+  padding: 40px 410px;
+  text-align: center;
+  color: #424242;
+  background: #fff4e7;
+  border-radius: 8px;
+  margin: 0 240px 216px 240px;
+}
+
+@media screen and (max-width: 576px) {
+  * {
+    background-color: gray;
+  }
+  .header-title {
+    text-align: left;
+  }
+  .feature-column-container {
+    margin: 0;
+  }
+  .fact-container {
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .fact-item:hover {
+    background-color: red;
+  }
+
+  .sponsor {
+    text-align: center;
+  }
+
+  .sponsor-img {
+    margin: 10px;
+  }
+  .footer {
+    background-color: red;
+
+    text-align: left;
+  }
+}
