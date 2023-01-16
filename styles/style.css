@@ -263,14 +263,15 @@ img {
 }
 
 @media screen and (max-width: 576px) {
-  * {
-    background-color: gray;
-  }
   .header-title {
+    padding: 0;
     text-align: left;
+    margin-bottom: 10px;
   }
   .feature-column-container {
     margin: 0;
+    padding: 0;
+    align-items: left;
   }
   .fact-container {
     margin-left: 0;
@@ -282,15 +283,210 @@ img {
   }
 
   .sponsor {
+    color: blue;
+    margin-top: 20px;
+    text-align: center;
+  }
+  .sponsor-title {
+    text-align: left;
+    margin: 0;
+  }
+  .sponsor-container {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  }
+  .sponsor-img {
+    margin-top: 10px;
+    margin-bottom: 15px;
+  }
+
+  nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  nav ul,
+  li {
+    list-style: none;
+    display: flex;
+    margin-bottom: 10px;
+
+    flex-direction: column;
+
+    font-weight: 500;
+    font-size: 18px;
+    color: #424242;
+  }
+  .brand {
+    margin-bottom: 10px;
+    text-align: left;
+    padding: 0;
+    margin: 0;
+  }
+
+  .brand-title {
+    font-weight: 700;
+    font-size: 64px;
+    text-align: left;
+    margin-bottom: 10px;
+  }
+  .brand-title p {
+    justify-content: center;
+  }
+
+  .banner {
+    border-radius: 8px;
+    text-align: left;
+    padding: 0;
+    margin-bottom: 10px;
+  }
+  .banner img {
+    width: 390px;
+  }
+  .button-container {
     text-align: center;
   }
 
-  .sponsor-img {
-    margin: 10px;
+  .btn-primary {
+    margin-top: 30px;
+    padding: 21px 24px;
+    background: #ff900e;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    border: none;
+    margin-bottom: 30px;
+  }
+  .feature {
+    display: flex;
+    align-items: left;
+    flex-direction: column;
+  }
+
+  .feature-container {
+    display: grid;
+    grid-template-columns: repeat(1, 0.5fr);
+    padding: 0;
+    margin-bottom: 10px;
+  }
+
+  .feature-container,
+  img {
+    gap: 20px;
+  }
+
+  .feature-info {
+    font-weight: 500;
+    font-size: 45px;
+    color: #727272;
+  }
+
+  .feature-info-title {
+    font-weight: 500;
+    font-size: 45px;
+    color: #131313;
+  }
+
+  .feature-info-subtitle {
+    font-weight: 500;
+    font-size: 45px;
+    color: #ff900e;
+  }
+
+  .feature-description {
+    padding: 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  .highlighted-feature {
+    display: flex;
+    margin: 0;
+  }
+
+  .highlighted-feature-description {
+    display: flex;
+
+    width: 590px;
+    margin-bottom: 20px;
+  }
+  .overlap-btn-image {
+    background-image: url(../images/architect.png);
+    background-repeat: no-repeat;
+    height: 1059px;
+    width: 200px;
+    background-position: center;
+  }
+
+  .overlap-btn {
+    background: #ff900e;
+    padding: 35px 42px;
+    font-weight: 700;
+    font-size: 65px;
+    color: #ffffff;
+    margin-top: 860px;
+    border-radius: 8px;
+    width: 200px;
+    border: none;
+  }
+
+  .overlap-btn-text {
+    font-weight: 500;
+    font-size: 25px;
+    color: #ffffff;
+  }
+
+  .fact {
+    margin-top: 30px;
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+    text-align: left;
+    margin-left: 0;
+  }
+
+  .fact-title {
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 30px;
+    margin: 10px auto;
+    text-align: center;
+  }
+
+  .fact-container {
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .fact-item {
+    border: 1px solid #ff900e;
+    border-radius: 8px;
+    margin-top: 10px;
+    margin-left: 40px;
+  }
+
+  .fact-description {
+    font-weight: 600;
+    font-size: 45px;
+  }
+
+  .fact-details {
+    font-weight: 600;
+    font-size: 20px;
+    color: #727272;
   }
   .footer {
-    background-color: red;
-
+    padding: 40px;
     text-align: left;
+    color: #424242;
+    background: #fff4e7;
+    border-radius: 8px;
+    margin: 0;
   }
 }
