@@ -366,6 +366,11 @@ img {
     align-items: left;
     flex-direction: column;
   }
+  .feature .btn-primary {
+    text-align: center;
+    display: block;
+    margin: 0 auto;
+  }
 
   .feature-container {
     display: grid;
